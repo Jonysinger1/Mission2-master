@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: skyblue;
+    margin: 20px;
+    border : 1px solid black;
+  
+  }
+
+  .title{
+    font-size: 30px;
+    font-family: cursive;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 20px;
+    border-radius: 10%;
+    width: 100px;
+    height: 40px;
+  }
